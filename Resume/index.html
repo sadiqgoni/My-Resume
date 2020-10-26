@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="Sadiq.ico">
+<link rel="stylesheet" href="style.css">
+<title>Resume</title>
+</head>
+<body>
+  <!--darkmode-->
+   <div id="nav-container">
+  <div id="light-dark-mode-container">
+    <p><i class="fas fa-sun"></i> Light | Dark <i class="fas fa-moon"></i></p>
+</div>
+
+  <!--topnav-->
+  <div id ="topnav">
+    <a href="#intro-section">INTRO</a>
+    <a href="#interests-section">INTERESTS</a>
+    <a href="#skills-sections">SKILLS</a>
+    <a href="#education-section">EDUCATION</a>
+    <a href="#experience-section">EXPERIENCE</a>
+    <a href="#projects-section">PROJECTS</a>
+    <a href="#tweets-section">TWEETS</a>
+</div>
+
+<!--name-->
+<div id = "intro">
+<h1 id = "font">
+  <span class = "type">Hey there!</span>
+      <br>
+      <span class="type">I'm </span>
+      <span id ="frontend">Sadiq,</span>
+      <br>
+      <span id = "frontend">Front-end</span>
+      <span class = "type">Developer.</span>  
+</h1>
+<div id ="polaroid">
+  <img src="mine.jpg" alt="my avatar" id ="image">
+  
+  <div id ="container">
+  <h4>SADIQ GONI</h4>
+  </div>
+  <div id ="middle">
+    <div id ="text">Mr Goni</div>
+  </div>
+</div>
+</div>
+ 
+<!--intro-->
+<section id = "intro-section">
+  <div class ="wrapper">
+    <p class="collapsible">INTRO</p>
+    <div class="content">
+      <div id = "flexy">
+        <div id ="img-wrapper">
+          <img id="my-pic-AM" src="picture.jpeg" alt="mine"  width="200">
+        </div>
+         <div id ="text-wrapper" >
+          <p id ="about-me-text">
+            HELLO &#128075;<br />
+            I'm 18 years old pursuing Software Engineering&#9997;, and I'm a passionate
+            software & web developer&#x1f4bb;<br>I've practiced & worked on various projects
+            <br> I love designing websites and keep things as simple as possible&#127775;.
+            I love people, art & music, during my leisure time i watch K-Series&#128150;
+          </p>
+        </div>
+        </div>
+    </div>   
+    </div>
+</section>
+
+<!--interests-->
+<section id = "interests-section">
+  <div class ="wrapper">
+  <p class="collapsible">INTERESTS</p>
+<div class="content">
+  <ul id = "list">
+    <li><img src = "web design.png" alt = "web design" class = "design" width = "100px">
+    <figcaption id = "fonts">WEB-DESIGN</figcaption></li>
+
+    <li><img src = "web development.png" alt = "web development"  class = "design" width = "100px">
+    <figcaption id = "fonts">WEB-DEVELOPMENT</figcaption></li>
+
+   <li><img src = "UX Design.jpg" alt = "Mobile App UI/UX Design"  class = "design" width = "100px">
+    <figcaption id = "fonts">UX Design</figcaption></li>
+   </ul>
+   </div>
+</div>
+</div>
+</section>
+
+<!--skills-->
+<section  id = "skills-section">
+  <div class ="wrapper">
+    <p class="collapsible">SKILLS</p>
+  <div class="content">
+    <p>HTML/CSS</p>
+    <div class="bar">
+      <div class="skills html">100%</div>
+    </div>
+    
+    <p>JAVASCRIPT</p>
+    <div class="bar">
+      <div class="skills css">80%</div>
+    </div>
+    
+    <p>PYTHON</p>
+    <div class="bar">
+      <div class="skills js">70%</div>
+    </div>
+  </div>
+  </div>
+</section>
+  
+<!--education-->
+  <section id="education-section">
+    <div class ="wrapper">
+      <h1 class="education-heading">Education</h1>
+      <div id="list-wrapper" class="list-wrapper">
+        <div class="red-line"></div>
+        <ul>
+          <li>
+            <p class="education-content">BAYERO UNIVERSITY KANO
+              <br>Studying Software Engineering<br>
+              Started From January 2020 till 2023. 
+            </p>
+          </li>
+          <li>
+            <p class="education-content">
+            CRESCENT INTERNATIONAL SCHOOL KANO<br>
+            Science Section <br>
+            Started From September 2017 To July 2019.
+            </p>
+          </li>
+          <li>
+            <p class="education-content">
+             PRIME COLLEGE<br>
+             Junior Section<br>
+             Started From September 2014 To July 2017. 
+            </p>
+          </li>
+         
+        </ul>
+      </div>
+      <button class="expand-btn" id="expand-btn" onclick="expandTimeline();">
+        EXPAND
+      </button>
+    </div>
+  </section>
+  
+  <!--experience-->
+  <section id="experience-section">
+    <div class ="wrapper">
+      <p class="collapsible">Experience</p>
+    <div class="content">
+      <div class = "size">
+      <h1>eHealth Africa Academy</h1>
+        <h3>Second Cohortee</h3>
+        <h4>Kano,Nigeria</h4>
+        <div>
+          <h3>AUGUST 2020 - OCTOBER 2020</h3>
+        </div>
+        <div id = "list">
+          <ul>
+            <li>Learned the fundamentals of web design & development</li>
+            <li>Participated and successfully pass in major challenges</li>
+          </ul>
+        </div> 
+        </div> 
+    </div>
+    </div>
+  </section>
+
+  <!--projects-->
+  <section  id ="projects-section">
+    <div class ="wrapper">
+      <p class ="collapsible">Projects</p>
+    <div class ="content">
+      <div class ="size">
+    <h1>My Projects</h1>
+    <a href = "https://sadiq-goni.netlify.app/" target="_blank">My Website</a><br>
+    <a href = "https://github.com/sadiqgoni/Countdown-timer-app" target="_blank">Countdown Timer</a><br>
+    <a href = "https://github.com/sadiqgoni/ehaAcademy" target="_blank">eHa Academy Challenges</a>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <!--tweets-->
+  <section  id ="tweets-section">
+    <div class ="wrapper">
+      <p class="collapsible">Tweets</p>
+    <div class="content">
+      <div class = "size">
+      <a class="twitter-timeline" href="https://twitter.com/sadiqgonii?ref_src=twsrc%5Etfw">Tweets by sadiqgonii</a> 
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    </div>
+    </div>
+  </section>
+  <button class="scrollToTopBtn">☝️</button>
+
+  <!--footer-->
+  <footer>
+    <div class="footer-wrapper">
+      <hr>
+      <div class="flex-icons">
+        <div style="text-align: center">
+          <a class="mail-btn" href="mailto:sadiqgoni13@gmail.com">SEND MESSAGE 📧</a>
+        </div>
+        <div class="icons">
+          <a href="https://github.com/sadiqgoni">
+            <img src="github logo.png" alt = "github logo"></a>
+          <a href="https://twitter.com/sadiqgonii">
+            <img src="twitter logo.png" alt = "twitter"></a>
+          <a href="https://www.instagram.com/gonii_jr">
+            <img src="instagram logo.png" alt = "instagram logo"></a>
+        </div>
+      </div>
+      <div class="footer-links-wrapper">
+        <div>
+          <h4 id="year">
+            © <span >2020</span> GONI: <br>
+            All rights reserved.
+          </h4>
+        </div>
+        <div class="section-links">
+          <a href="#intro-section">Intro</a>
+          <a href="#interests-section">Interests</a>
+          <a href="#skills-section">Skills</a>
+          <a href="#education-section">Education</a>
+          <a href="#experience-section">Experience</a>
+          <a href="#projects-section">Projects</a>
+          <a href="#tweets-section">Tweets</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+<script src = "script.js"></script>
+</body>
+</html>
